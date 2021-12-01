@@ -1,0 +1,40 @@
+{
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "browser_action": {     "browser_style": true,
+    "default_icon": {
+      "16": "icons/default.svg",
+      "32": "icons/default.svg",
+      "64": "icons/default.svg"
+    },
+    "default_title": "merge && sort"
+  },
+  "description": "Merge and sort all tabs",
+  "icons": {
+    "16": "icons/default.svg",
+    "48": "icons/default.svg"
+  },
+  "manifest_version": 2,
+  "name": "merge && sort",
+  "permissions": [
+    "activeTab",
+    "bookmarks",
+    "clipboardWrite",
+    "contextMenus",
+    "contextualIdentities",
+    "cookies",
+    "downloads",
+    "notifications",
+    "storage",
+    "tabs",
+    "theme",
+    "unlimitedStorage",
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "version": "0.1"
+}
